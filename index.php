@@ -68,6 +68,7 @@
 
     <!-- FOOTER DA PÁGINA -->
     <?php include('components/templates/Footer.php') ?>
+        
 
     <script>
         new Vue({

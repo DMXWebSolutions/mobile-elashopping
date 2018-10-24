@@ -15,9 +15,10 @@
         <div class="menu-responsive" :class="{'menu-open': menuIsOpen, 'menu-close': !menuIsOpen}" >
             <button @click="menuIsOpen = !menuIsOpen" class="close-button fas fa-times"></button>
             <div class="menu-items">
-                <a href="#">Menu</a>
-                <a href="#">Lojas</a>
-                <a href="#">Eventos</a>
+                <a href="index.php">Home</a>
+                <a href="lojas.php">Lojas</a>
+                <a href="#">Shopping</a>
+                <a href="eventos.php">Eventos</a>
                 <a href="#">Localização</a>
                 <a href="#">Contato</a>
             </div>
