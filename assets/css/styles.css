@@ -18,7 +18,7 @@ header {
 .menu {
     display: flex;
     background: #f5f5f5;
-    min-height: 15vh;
+    min-height: 14vh;
 }
 
 .menu-open {
@@ -73,11 +73,11 @@ header {
 }
 
 .logo img {
-    margin-top: 20px;
+    margin-top: 5px;
     margin-left: 10px;
     position: absolute;
-    width: 80px;
-    height: 150px;
+    width: 60px;
+    height: 130px;
 }
 
 .social-icons{
@@ -96,11 +96,15 @@ header {
     margin: 5px;
     border: solid 2px #444;
     border-radius: 55%;
-    font-size: 1.8rem;
-    width: 60px;
-    height: 60px;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
     text-decoration: none;
     color: #444;
+}
+
+.social-icons a:hover {
+    text-decoration: none;
 }
 
 .menu-bottom {
@@ -109,14 +113,14 @@ header {
     align-items: center;
     flex-grow: 1.2;
     background: #81af49;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     margin-right: 10px;
 }
 
 .menu-bottom button {
     color: #FFF;
     margin-top: 15px;
-    font-size: 2.3rem;
+    font-size: 1.8rem;
     background: none;
     border: none;
 }
@@ -256,9 +260,9 @@ header {
 
 .page-title span {
     position: relative;
-    top: -30px;
-    left: 100px;
-    font-size: 2rem;
+    top: -15px;
+    left: 60px;
+    font-size: 1.3rem;
     color: #21adff;
     font-weight: bold;
 }
@@ -276,13 +280,16 @@ header {
 .floor-container h1 {
     text-align: center;
     color: #21adff;
+    font-size: 1.6rem;
 }
 
 .floor-container hr {
-    background: #145acc;
+    background: #0c4196;
     height: 3px;
-    width: 120px;
-    margin-top: -20px;
+    width: 80px;
+    margin-top: -9px;
+    border: none;
+    border-radius: 5px;
 }
 
 .floor-row {
@@ -301,14 +308,15 @@ header {
     width: 30%;
     margin: 5px;
     text-align: center;
+    font-size: 0.8rem;
 }
 
 .floor-item img{
-    border: 4px solid #333;
-    border-radius: 50%;
-    width: 130px;
-    height: 130px;
+    width: 100px;
+    height: 100px;
     margin: 10px;
+    border-radius:  50%;
+    box-shadow: 2px 3px 10px #777;
 }
 
 .floor-item  p {
@@ -328,7 +336,7 @@ header {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
-    min-height: 11vh;
+    min-height: 17vh;
     padding: 10px;
     text-align: center;
     font-size: 1.4rem; 
@@ -337,11 +345,18 @@ header {
 
 .logo-evento {
     display: flex;
-    flex-grow: 2;
+    width: 100px;
+    height: 100px;
     align-items: center;
     justify-content: center;
     background: #81af49;
     border-radius: 60%;
+    font-size: 0.9rem;
+}
+
+.l-event img {
+    width: 30px;
+    height: 30px;;
 }
 
 .evento-title {
@@ -349,6 +364,7 @@ header {
     align-items: center;
     flex-grow: 7;
     justify-content: center;
+    font-size: 1.2rem;
 }
 
 .set-icon {
@@ -358,4 +374,147 @@ header {
     flex-grow: 4;
     font-size: 3rem;
 }
+
+.collapse-event {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background: #eee;
+    padding: 20px;
+}
+
+.collapse-event img {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+
+
 /*FIM PÁGINA DE EVENTOS*/
+
+
+/*INICIO PÁGINA DE SHOPPING*/
+.shop-text {
+    display: flex;
+    flex-flow: column;
+    padding: 15px;
+}
+
+.s-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #0c4196;
+}
+
+.s-text {
+    text-align: justify;
+}
+
+
+.universo-ela {
+    display:flex;
+    flex-flow: column nowrap;
+    margin-bottom: 20px;
+    
+}
+
+.u-title {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #799dd8;
+    text-align: center;
+}
+.u-box {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 40vh;
+    background: #0c4196;
+    padding: 20px;
+}
+
+.u-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;  
+}
+
+.u-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    text-align: center;
+    width: 50%;
+}
+
+.u-item-title {
+    color: #a3d663;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+.u-item-text { 
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+/*FIM PÁGINA DE SHOPPING*/
+
+/*INICIO PÁGINA DE LOCALIZAÇÃO*/
+
+.local-textos {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+}
+/* FIM PÁGINA DE LOCALIZAÇÃO*/
+
+/*INICIO PÁGINA DE CONTATO*/
+.contato-container {
+    display: flex;
+    justify-content: center;
+    flex-flow: column nowrap;
+}
+
+.formulario-contato {
+    display: flex;
+    flex-flow: column nowrap;
+    min-height: 40vh;
+    background: #0c4196;
+    padding: 20px;
+    color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.formulario-contato input {
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    height: 40px;
+}
+
+.formulario-contato button {
+    margin-top: 15px;
+    border: none;
+    color: #fff;
+    height: 50px;
+    background: #a3d663;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.btn-contato {
+    width: 200px;
+    height: 50px;
+    background: #0c4196;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+/* FIM PÁGINA DE CONTATO*/

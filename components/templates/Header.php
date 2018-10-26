@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <script src="assets/js/vue.min.js"></script>
 </head>
 <body>
@@ -17,10 +19,11 @@
             <div class="menu-items">
                 <a href="index.php">Home</a>
                 <a href="lojas.php">Lojas</a>
-                <a href="#">Shopping</a>
+                <a href="shopping.php">Shopping</a>
                 <a href="eventos.php">Eventos</a>
-                <a href="#">Localização</a>
-                <a href="#">Contato</a>
+                <a href="localizacao.php">Localização</a>
+                <a href="contato_fazendoparte.php">Venha fazer parte do ELA</a>
+                <a href="contato.php">Contato</a>
             </div>
         </div>
         <header class="header">

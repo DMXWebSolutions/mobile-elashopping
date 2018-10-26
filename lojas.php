@@ -6,42 +6,42 @@
         <span>As Lojas</span>
     </div>
     <div class="floor-container">   
-        <h1>Piso 1</h1>
+        <h1>1º Piso</h1>
         <hr>
         <div class="floor-row">
             <div v-if="piso1 !== null" v-for="loja in piso1" class="floor-item">
                 <a :href="'http://' + loja.site" v-if="loja.site !== null">
-                    <img :src="'https://www.elashopping.com.br/' + loja.logotipo"  alt="">
+                    <img :src="'https://www.elashopping.com.br/img-icons/' + loja.logotipo"  alt="">
                 </a>
-                <img :src="'https://www.elashopping.com.br/' + loja.logotipo"  v-if="loja.site === null"  alt="">
+                <img :src="'https://www.elashopping.com.br/img-icons/' + loja.logotipo"  v-if="loja.site === null"  alt="">
                 <p>{{loja.nome}}</p>
                 <p v-html="loja.telefone">{{loja.telefone}}</p>
             </div>   
         </div>
     </div>
     <div class="floor-container">
-        <h1>Piso 2 </h1>   
+        <h1>2º Piso</h1>   
         <hr>
         <div class="floor-row">
             <div v-if="piso1 !== null" v-for="loja in piso2" class="floor-item">
                 <a :href="'http://' + loja.site" v-if="loja.site !== null">
-                    <img :src="'https://www.elashopping.com.br/' + loja.logotipo"  alt="">
+                    <img :src="'https://www.elashopping.com.br/img-icons/' + loja.logotipo"  alt="">
                 </a>
-                <img :src="'https://www.elashopping.com.br/' + loja.logotipo"  v-if="loja.site === null"  alt="">
+                <img :src="'https://www.elashopping.com.br/img-icons/' + loja.logotipo"  v-if="loja.site === null"  alt="">
                 <p>{{loja.nome}}</p>
                 <p v-html="loja.telefone">{{loja.telefone}}</p>
             </div>   
         </div>
     </div>
     <div class="floor-container">
-        <h1>Piso 3 </h1>   
+        <h1>3º Piso</h1>   
         <hr>
         <div class="floor-row">
             <div v-if="piso1 !== null" v-for="loja in piso3" class="floor-item">
                 <a :href="'http://' + loja.site" v-if="loja.site !== null">
-                    <img :src="'https://www.elashopping.com.br/' + loja.logotipo"  alt="">
+                    <img :src="'https://www.elashopping.com.br/img-icons/' + loja.logotipo"  alt="">
                 </a>
-                <img :src="'https://www.elashopping.com.br/' + loja.logotipo"  v-if="loja.site === null"  alt="">
+                <img :src="'https://www.elashopping.com.br/img-icons/' + loja.logotipo"  v-if="loja.site === null"  alt="">
                 <p>{{loja.nome}}</p>
                 <p v-html="loja.telefone">{{loja.telefone}}</p>
             </div>   
