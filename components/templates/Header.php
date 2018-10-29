@@ -22,7 +22,6 @@
                 <a href="shopping.php">Shopping</a>
                 <a href="eventos.php">Eventos</a>
                 <a href="localizacao.php">Localização</a>
-                <a href="contato_fazendoparte.php">Venha fazer parte do ELA</a>
                 <a href="contato.php">Contato</a>
             </div>
         </div>

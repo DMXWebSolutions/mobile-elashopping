@@ -5,32 +5,42 @@
         <div class="segmentos">
             <div class="row-segmentos">
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/celulares_e_eletronicos.png"/>
+                    <img src="assets/imgs/icones/celulares_e_eletronicos.png" @click="changePage(4)"/>
                     <p>Celulares e <br/>Eletrônicos</p>
                 </div>
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/vestuário.png"/>
-                    <p>Vestuários</p>
+                    <img src="assets/imgs/icones/vestuário.png" @click="changePage(1)"/>
+                    <p>Moda Masculina</p>
                 </div>
             </div>
             <div class="row-segmentos">
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/perfumaria.png"/>
-                    <p>Perfumaria</p>
+                    <img src="assets/imgs/icones/celulares_e_eletronicos.png" @click="changePage(2)"/>
+                    <p>Moda Feminina</p>
                 </div>
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/acessórios.png"/>
-                    <p>Acessório</p>
+                    <img src="assets/imgs/icones/vestuário.png" @click="changePage(7)"/>
+                    <p>Moda Infantil</p>
                 </div>
             </div>
             <div class="row-segmentos">
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/estética.png"/>
-                    <p>Estética</p>
+                    <img src="assets/imgs/icones/perfumaria.png"  @click="changePage(3)"/>
+                    <p>Acessorios e Perfumaria</p>
                 </div>
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/lanches_e_alimentação.png"/>
+                    <img src="assets/imgs/icones/estética.png"  @click="changePage(5)"/>
+                    <p>Saúde e Serviços</p>
+                </div>
+            </div>
+            <div class="row-segmentos">
+                <div class="items-seg">
+                    <img src="assets/imgs/icones/lanches_e_alimentação.png"  @click="changePage(6)"/>
                     <p>Lanches e <br/> Alimentação</p>
+                </div>
+                <div class="items-seg">
+                    <img src="assets/imgs/icones/estética.png" @click="window.location.href='eventos.php' "/>
+                    <p>Eventos</p>
                 </div>
             </div>            
         </div>
@@ -97,6 +107,13 @@
                         .then(resp => resp.json())
                         .then(data => this.storeInfo = data.stores)
                         //.then(data => console.log(data.stores))
+                },
+                passaValor: function(valor) {
+                    window.location = `categoria.php`;
+                },
+                changePage: function(data) {
+                    var dados = sessionStorage.setItem('category', data)
+                    window.location = `categoria.php`;
                 }
             },
             watch: {

@@ -18,6 +18,10 @@
             <button class="btn-contato" @click="window.location.href='contato_logista.php'">
                 Atendimento aos Logistas
             </button>
+            <br>
+            <button class="btn-contato" @click="window.location.href='contato_fazendoparte.php'">
+                Venha fazer parte do ELA
+            </button>
         </div>
     </div>
 <!-- FOOTER DA PÁGINA -->
