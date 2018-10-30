@@ -47,6 +47,8 @@
                         'Content-Type': 'application/json',
                         }),
                         body: JSON.stringify({
+                            assunto: 'Ela Shopping Fale Conosco',
+                            destinatario: 'contato@elashopping.com.br',
                             nome: this.nome,
                             email: this.email,
                             mensagem: this.mensagem,

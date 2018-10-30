@@ -42,6 +42,8 @@
                         'Content-Type': 'application/json',
                         }),
                         body: JSON.stringify({
+                            assunto: 'Contato através do formulário de comercialização do website',
+                            destinatario: 'contato@elashopping.com.br',
                             nome: this.nome,
                             email: this.email,
                             mensagem: this.mensagem,

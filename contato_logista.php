@@ -12,6 +12,8 @@
                     <input type="text" v-model="nome" name="nome" pattern="[a-z\s]+$"  required/>
                     <label>Loja:</label>
                     <input type="text" v-model="loja" name="loja" required/>
+                    <label>Assunto:</label>
+                    <input type="text" v-model="assunto" name="assunto" required/>
                     <label>E-mail:</label>
                     <input type="email" v-model="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required/>
                     <label>Mensagem:</label>
@@ -31,7 +33,8 @@
                 nome: null,
                 loja: null,
                 email: null,
-                mensagem: null,           
+                mensagem: null,   
+                assunto: null,        
             },
             methods: {
                 sendMail: function(event) {
@@ -45,6 +48,8 @@
                         'Content-Type': 'application/json',
                         }),
                         body: JSON.stringify({
+                            destinatario: 'contato@elashopping.com.br',
+                            assunto: this.assunto,
                             nome: this.nome,
                             email: this.email,
                             loja: this.loja,
