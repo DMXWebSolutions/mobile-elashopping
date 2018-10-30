@@ -5,41 +5,41 @@
         <div class="segmentos">
             <div class="row-segmentos">
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/celulares_e_eletronicos.png" @click="changePage(4)"/>
+                    <img src="assets/imgs/icones/1.png" @click="changePage(4)"/>
                     <p>Celulares e <br/>Eletrônicos</p>
                 </div>
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/vestuário.png" @click="changePage(1)"/>
+                    <img src="assets/imgs/icones/2.png" @click="changePage(1)"/>
                     <p>Moda Masculina</p>
                 </div>
             </div>
             <div class="row-segmentos">
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/celulares_e_eletronicos.png" @click="changePage(2)"/>
+                    <img src="assets/imgs/icones/3.png" @click="changePage(2)"/>
                     <p>Moda Feminina</p>
                 </div>
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/vestuário.png" @click="changePage(7)"/>
+                    <img src="assets/imgs/icones/4.png" @click="changePage(7)"/>
                     <p>Moda Infantil</p>
                 </div>
             </div>
             <div class="row-segmentos">
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/perfumaria.png"  @click="changePage(3)"/>
-                    <p>Acessorios e Perfumaria</p>
+                    <img src="assets/imgs/icones/5.png"  @click="changePage(3)"/>
+                    <p>Acessorios e <br/>Perfumaria</p>
                 </div>
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/estética.png"  @click="changePage(5)"/>
+                    <img src="assets/imgs/icones/6.png"  @click="changePage(5)"/>
                     <p>Saúde e Serviços</p>
                 </div>
             </div>
             <div class="row-segmentos">
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/lanches_e_alimentação.png"  @click="changePage(6)"/>
+                    <img src="assets/imgs/icones/7.png"  @click="changePage(6)"/>
                     <p>Lanches e <br/> Alimentação</p>
                 </div>
                 <div class="items-seg">
-                    <img src="assets/imgs/icones/estética.png" @click="window.location.href='eventos.php' "/>
+                    <img src="assets/imgs/icones/8.png" @click="window.location.href='eventos.php' "/>
                     <p>Eventos</p>
                 </div>
             </div>            

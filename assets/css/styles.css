@@ -153,6 +153,7 @@ header {
     align-items: center;
     width: 50%;
     height: 30vh;
+    text-align: center;
 }
 .segmentos .row-segmentos .items-seg img {
     width: 100px;
